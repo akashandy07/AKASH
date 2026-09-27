@@ -55,14 +55,9 @@ export default function Hero() {
       <div className="btnrow">
         <a href="#projects" className="btn primary">View Projects</a>
         <a href="https://drive.google.com/file/d/1EvQ1UhAcnjTSi0LcSCdvrD3B1nRzGchW/view?usp=drivesdk" className="btn">Download Resume</a>
-        <a href="#contact" className="btn">Contact Me</a>
+      
       </div>
-      <div className="social">
-
-        <a href="https://www.linkedin.com/in/akash-a-a62756244/" aria-label="LinkedIn">in</a>
-        <a href="https://github.com/akashandy07/" aria-label="GitHub">GH</a>
-
-      </div>
+      
     </section>
   );
 }
