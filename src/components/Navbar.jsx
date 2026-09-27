@@ -51,7 +51,7 @@ export default function Navbar({ theme, toggleTheme }) {
   return (
     <>
       <nav className={shrink ? 'shrink' : ''}>
-        <span className="brand">AKASH</span>
+        <span className="brand">AKASh</span>
         <div className="links">
           {LINKS.map((id) => (
             <a key={id} href={`#${id}`} className={active === id ? 'active' : ''}>
