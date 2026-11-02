@@ -22,10 +22,17 @@ export default function Hero() {
   }, []);
 
   const chips = [
-    { cls: 'fc1', label: '⚛ React.js' },
-    { cls: 'fc2', label: '{ } JavaScript' },
-    { cls: 'fc3', label: '⚡ Vite' },
-    { cls: 'fc4', label: '🔗 REST APIs' }
+
+    { cls: 'fc1', label: '⚛️ React.js' },
+    { cls: 'fc2', label: '🟨 JavaScript' },
+    { cls: 'fc4', label: '🐍 Python' },
+    { cls: 'fc3', label: '⚡ FastAPI' },
+
+    // { cls: 'fc3', label: '🟩 Node.js' },
+
+    // { cls: 'fc5', label: '🗄️ SQL' },
+    // { cls: 'fc6', label: '🎨 CSS' },
+    // { cls: 'fc7', label: '🌐 HTML' },
   ];
 
   return (
@@ -45,19 +52,19 @@ export default function Hero() {
       </div>
 
       <span className="badge">
-        <span className="dot"></span> Available for Frontend / React roles
+        <span className="dot"></span> Available for Frontend Developer / Python Developer roles (Full-time)
       </span>
       <h1>
         AKASH <span>A</span>
       </h1>
-      <div className="role">Frontend Developer , React Developer</div>
+      <div className="role">Frontend Developer , Python Developer</div>
       <p className="tag">Building responsive, scalable and high-performance web experiences with React.js.</p>
       <div className="btnrow">
         <a href="#projects" className="btn primary">View Projects</a>
         <a href="https://drive.google.com/file/d/1EvQ1UhAcnjTSi0LcSCdvrD3B1nRzGchW/view?usp=drivesdk" className="btn">Download Resume</a>
-      
+
       </div>
-      
+
     </section>
   );
 }

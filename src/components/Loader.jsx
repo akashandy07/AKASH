@@ -4,7 +4,7 @@ export default function Loader() {
   const [hide, setHide] = useState(false);
 
   useEffect(() => {
-    const t = setTimeout(() => setHide(true), 500);
+    const t = setTimeout(() => setHide(true), 1000);
     return () => clearTimeout(t);
   }, []);
 
@@ -12,7 +12,7 @@ export default function Loader() {
     <div id="loader" className={hide ? 'hide' : ''}>
       <div className="ld-shape"></div>
       <h1>AKASH A</h1>
-      <p>Frontend Developer</p>
+      <p>Frontend Developer & Python Developer</p>
     </div>
   );
 }
